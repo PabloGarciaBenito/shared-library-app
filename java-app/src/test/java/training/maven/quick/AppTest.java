@@ -2,8 +2,6 @@ package training.maven.quick;
 
 import org.junit.*;
 import static org.junit.Assert.*;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class AppTest {
     private final HolaMundo sut = new HolaMundo();
