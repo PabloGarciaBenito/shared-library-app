@@ -1,16 +1,19 @@
 package training.maven.quick;
 
-import org.apache.logging.log4j.*;
-
 public class HolaMundo{
-    private final String message = "Hola Mundo";
-    private static final Logger lg = LogManager.getLogger(HolaMundo.class);
+    public int addition(final int firstNumber, final int secondNumber) {
+        return firstNumber + secondNumber;
+    }
 
-    public static void main(String[] args){
-        System.out.println("Hola Mundo");
+    public int subtraction(final int firstNumber, final int secondNumber) {
+        return firstNumber - secondNumber;
+    }
 
-        lg.debug("debug");
-        lg.info("info");
-        lg.warn("warning");
+    public int multiplication(final int firstNumber, final int secondNumber) {
+        return firstNumber * secondNumber;
+    }
+
+    public int division(final int firstNumber, final int secondNumber) {
+        return firstNumber / secondNumber;
     }
 }
