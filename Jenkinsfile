@@ -32,6 +32,13 @@ pipeline{
                 }
             }
         }
+        stage('Empaquetado'){
+            steps{
+                script{
+                    EmpaquetarMaven
+                }
+            }
+        }
     }
     
 }
