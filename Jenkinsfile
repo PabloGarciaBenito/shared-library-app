@@ -25,6 +25,13 @@ pipeline{
                 }
             }
         }
+        stage ('JacocoTests'){
+            steps{
+                script{
+                    JacocoTest
+                }
+            }
+        }
     }
     
 }
